@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		F90113C829CAF96800062770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113C729CAF96800062770 /* AppDelegate.swift */; };
 		F90113CA29CAF96800062770 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113C929CAF96800062770 /* SceneDelegate.swift */; };
-		F90113CC29CAF96800062770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113CB29CAF96800062770 /* ViewController.swift */; };
 		F90113CF29CAF96800062770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90113CD29CAF96800062770 /* Main.storyboard */; };
 		F90113D129CAF96800062770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90113D029CAF96800062770 /* Assets.xcassets */; };
 		F90113D429CAF96800062770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90113D229CAF96800062770 /* LaunchScreen.storyboard */; };
+		F90113E329CB00AE00062770 /* BigBang.json in Resources */ = {isa = PBXBuildFile; fileRef = F90113E229CB00AE00062770 /* BigBang.json */; };
+		F90113E529CB025B00062770 /* EpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113E429CB025B00062770 /* EpisodeModel.swift */; };
+		F90113E729CB02F700062770 /* EpisodeModelPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113E629CB02F700062770 /* EpisodeModelPersistence.swift */; };
+		F90113E929CB046900062770 /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113E829CB046900062770 /* FavoriteModel.swift */; };
+		F90113EB29CB048600062770 /* FavoriteModelPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113EA29CB048600062770 /* FavoriteModelPersistence.swift */; };
+		F90113ED29CB056A00062770 /* EpisodeModelLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113EC29CB056A00062770 /* EpisodeModelLogic.swift */; };
+		F90113EF29CB063F00062770 /* FavoriteModelLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113EE29CB063F00062770 /* FavoriteModelLogic.swift */; };
+		F90113F129CB0CBF00062770 /* EpisodesDiffableTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113F029CB0CBF00062770 /* EpisodesDiffableTableVC.swift */; };
+		F90113F329CB0D5100062770 /* EpisodesDiffableDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113F229CB0D5100062770 /* EpisodesDiffableDatasource.swift */; };
+		F90113F529CB0DE200062770 /* EpisodeViewLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113F429CB0DE200062770 /* EpisodeViewLogic.swift */; };
+		F90113F729CB0E6F00062770 /* ZeldaEpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113F629CB0E6F00062770 /* ZeldaEpisodeCell.swift */; };
+		F90113FA29CB106900062770 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113F929CB106900062770 /* Extensions.swift */; };
+		F90113FC29CB1D2E00062770 /* ZeldaFavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90113FB29CB1D2E00062770 /* ZeldaFavoriteCell.swift */; };
+		F90113FF29CB1D5D00062770 /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90113FD29CB1D5D00062770 /* Favorites.storyboard */; };
+		F901140129CB204800062770 /* FavoritesCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F901140029CB204800062770 /* FavoritesCollectionVC.swift */; };
+		F9721D5229CB779B00707FFE /* EpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9721D5129CB779B00707FFE /* EpisodeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F90113C429CAF96800062770 /* BigBangApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBangApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90113C729CAF96800062770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F90113C929CAF96800062770 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F90113CB29CAF96800062770 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F90113CE29CAF96800062770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F90113D029CAF96800062770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F90113D329CAF96800062770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F90113D529CAF96800062770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90113E229CB00AE00062770 /* BigBang.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BigBang.json; sourceTree = "<group>"; };
+		F90113E429CB025B00062770 /* EpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeModel.swift; sourceTree = "<group>"; };
+		F90113E629CB02F700062770 /* EpisodeModelPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeModelPersistence.swift; sourceTree = "<group>"; };
+		F90113E829CB046900062770 /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		F90113EA29CB048600062770 /* FavoriteModelPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModelPersistence.swift; sourceTree = "<group>"; };
+		F90113EC29CB056A00062770 /* EpisodeModelLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeModelLogic.swift; sourceTree = "<group>"; };
+		F90113EE29CB063F00062770 /* FavoriteModelLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModelLogic.swift; sourceTree = "<group>"; };
+		F90113F029CB0CBF00062770 /* EpisodesDiffableTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesDiffableTableVC.swift; sourceTree = "<group>"; };
+		F90113F229CB0D5100062770 /* EpisodesDiffableDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesDiffableDatasource.swift; sourceTree = "<group>"; };
+		F90113F429CB0DE200062770 /* EpisodeViewLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewLogic.swift; sourceTree = "<group>"; };
+		F90113F629CB0E6F00062770 /* ZeldaEpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaEpisodeCell.swift; sourceTree = "<group>"; };
+		F90113F929CB106900062770 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F90113FB29CB1D2E00062770 /* ZeldaFavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaFavoriteCell.swift; sourceTree = "<group>"; };
+		F90113FE29CB1D5D00062770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BigBangApp/Base.lproj/Favorites.storyboard; sourceTree = "<group>"; };
+		F901140029CB204800062770 /* FavoritesCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCollectionVC.swift; sourceTree = "<group>"; };
+		F9721D5129CB779B00707FFE /* EpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,94 @@
 		F90113C629CAF96800062770 /* BigBangApp */ = {
 			isa = PBXGroup;
 			children = (
+				F90113E129CAF9CB00062770 /* View */,
+				F90113E029CAF9BF00062770 /* Controller */,
+				F90113DF29CAF9B900062770 /* Cells */,
+				F90113DE29CAF9B000062770 /* Logic */,
+				F90113DD29CAF9A700062770 /* Model */,
+				F90113DC29CAF99700062770 /* Resources */,
+				F90113F829CB105400062770 /* Helpers */,
+				F90113DB29CAF98D00062770 /* system */,
+			);
+			path = BigBangApp;
+			sourceTree = "<group>";
+		};
+		F90113DB29CAF98D00062770 /* system */ = {
+			isa = PBXGroup;
+			children = (
 				F90113C729CAF96800062770 /* AppDelegate.swift */,
 				F90113C929CAF96800062770 /* SceneDelegate.swift */,
-				F90113CB29CAF96800062770 /* ViewController.swift */,
-				F90113CD29CAF96800062770 /* Main.storyboard */,
 				F90113D029CAF96800062770 /* Assets.xcassets */,
 				F90113D229CAF96800062770 /* LaunchScreen.storyboard */,
 				F90113D529CAF96800062770 /* Info.plist */,
 			);
-			path = BigBangApp;
+			name = system;
+			sourceTree = "<group>";
+		};
+		F90113DC29CAF99700062770 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F90113E229CB00AE00062770 /* BigBang.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F90113DD29CAF9A700062770 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F90113E429CB025B00062770 /* EpisodeModel.swift */,
+				F90113E629CB02F700062770 /* EpisodeModelPersistence.swift */,
+				F90113E829CB046900062770 /* FavoriteModel.swift */,
+				F90113EA29CB048600062770 /* FavoriteModelPersistence.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F90113DE29CAF9B000062770 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				F90113EC29CB056A00062770 /* EpisodeModelLogic.swift */,
+				F90113EE29CB063F00062770 /* FavoriteModelLogic.swift */,
+				F90113F429CB0DE200062770 /* EpisodeViewLogic.swift */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		F90113DF29CAF9B900062770 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F90113F629CB0E6F00062770 /* ZeldaEpisodeCell.swift */,
+				F90113FB29CB1D2E00062770 /* ZeldaFavoriteCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		F90113E029CAF9BF00062770 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F90113F029CB0CBF00062770 /* EpisodesDiffableTableVC.swift */,
+				F90113F229CB0D5100062770 /* EpisodesDiffableDatasource.swift */,
+				F901140029CB204800062770 /* FavoritesCollectionVC.swift */,
+				F9721D5129CB779B00707FFE /* EpisodeDetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F90113E129CAF9CB00062770 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F90113FD29CB1D5D00062770 /* Favorites.storyboard */,
+				F90113CD29CAF96800062770 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F90113F829CB105400062770 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F90113F929CB106900062770 /* Extensions.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +236,9 @@
 			files = (
 				F90113D429CAF96800062770 /* LaunchScreen.storyboard in Resources */,
 				F90113D129CAF96800062770 /* Assets.xcassets in Resources */,
+				F90113E329CB00AE00062770 /* BigBang.json in Resources */,
 				F90113CF29CAF96800062770 /* Main.storyboard in Resources */,
+				F90113FF29CB1D5D00062770 /* Favorites.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +249,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90113CC29CAF96800062770 /* ViewController.swift in Sources */,
+				F90113F329CB0D5100062770 /* EpisodesDiffableDatasource.swift in Sources */,
 				F90113C829CAF96800062770 /* AppDelegate.swift in Sources */,
+				F90113ED29CB056A00062770 /* EpisodeModelLogic.swift in Sources */,
+				F90113F529CB0DE200062770 /* EpisodeViewLogic.swift in Sources */,
+				F90113E729CB02F700062770 /* EpisodeModelPersistence.swift in Sources */,
+				F9721D5229CB779B00707FFE /* EpisodeDetailViewController.swift in Sources */,
 				F90113CA29CAF96800062770 /* SceneDelegate.swift in Sources */,
+				F90113F129CB0CBF00062770 /* EpisodesDiffableTableVC.swift in Sources */,
+				F90113E529CB025B00062770 /* EpisodeModel.swift in Sources */,
+				F90113FA29CB106900062770 /* Extensions.swift in Sources */,
+				F90113E929CB046900062770 /* FavoriteModel.swift in Sources */,
+				F90113FC29CB1D2E00062770 /* ZeldaFavoriteCell.swift in Sources */,
+				F90113EB29CB048600062770 /* FavoriteModelPersistence.swift in Sources */,
+				F90113F729CB0E6F00062770 /* ZeldaEpisodeCell.swift in Sources */,
+				F90113EF29CB063F00062770 /* FavoriteModelLogic.swift in Sources */,
+				F901140129CB204800062770 /* FavoritesCollectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +285,14 @@
 				F90113D329CAF96800062770 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F90113FD29CB1D5D00062770 /* Favorites.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90113FE29CB1D5D00062770 /* Base */,
+			);
+			name = Favorites.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
