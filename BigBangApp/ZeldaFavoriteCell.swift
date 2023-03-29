@@ -9,6 +9,7 @@ import UIKit
 
 class ZeldaFavoriteCell: UICollectionViewCell {
     @IBOutlet var cover: UIImageView!
+    @IBOutlet var seasonEpisode: UILabel!
 
     override func awakeFromNib() {
         cover.layer.cornerRadius = 10
@@ -16,5 +17,6 @@ class ZeldaFavoriteCell: UICollectionViewCell {
 
     override func prepareForReuse() {
         cover.image = nil
+        seasonEpisode.text = ""
     }
 }

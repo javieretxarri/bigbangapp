@@ -38,6 +38,7 @@ class FavoritesCollectionVC: UICollectionViewController {
         }
         
         cell.cover.image = UIImage(named: episode.image)
+        cell.seasonEpisode.text = "Season \(episode.season) - \(episode.number)"
         
         return cell
     }

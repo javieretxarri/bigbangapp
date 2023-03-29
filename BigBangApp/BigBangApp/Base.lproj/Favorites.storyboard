@@ -18,36 +18,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" sectionInsetReference="layoutMargins" id="n4q-fR-ni5">
-                            <size key="itemSize" width="150" height="85"/>
+                            <size key="itemSize" width="150" height="116"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="zelda" id="Y5g-q1-O5f" customClass="ZeldaFavoriteCell" customModule="BigBangApp" customModuleProvider="target">
-                                <rect key="frame" x="18" y="8" width="150" height="85"/>
+                                <rect key="frame" x="18" y="8" width="150" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="6lx-r5-SCk">
-                                    <rect key="frame" x="0.0" y="0.0" width="150" height="85"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="116"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DwU-Yq-qkb">
                                             <rect key="frame" x="0.0" y="0.0" width="150" height="85"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="85" id="a3b-Ce-wNt"/>
-                                                <constraint firstAttribute="width" constant="150" id="yKw-uD-hlG"/>
+                                                <constraint firstAttribute="width" constant="150" id="P1Q-UJ-knS"/>
+                                                <constraint firstAttribute="height" constant="85" id="ai8-nB-SkU"/>
                                             </constraints>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aY8-Z0-bEc">
+                                            <rect key="frame" x="0.0" y="93" width="150" height="13"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="DwU-Yq-qkb" firstAttribute="top" secondItem="6lx-r5-SCk" secondAttribute="top" id="ACo-ii-czV"/>
-                                        <constraint firstAttribute="trailing" secondItem="DwU-Yq-qkb" secondAttribute="trailing" id="Uqu-hl-dEr"/>
-                                        <constraint firstItem="DwU-Yq-qkb" firstAttribute="leading" secondItem="6lx-r5-SCk" secondAttribute="leading" id="fu9-43-GNG"/>
-                                        <constraint firstAttribute="bottom" secondItem="DwU-Yq-qkb" secondAttribute="bottom" id="n35-Pv-o70"/>
+                                        <constraint firstItem="aY8-Z0-bEc" firstAttribute="leading" secondItem="6lx-r5-SCk" secondAttribute="leading" id="5yg-PW-XO6"/>
+                                        <constraint firstItem="aY8-Z0-bEc" firstAttribute="top" secondItem="DwU-Yq-qkb" secondAttribute="bottom" constant="8" symbolic="YES" id="EvH-9r-FTO"/>
+                                        <constraint firstAttribute="trailing" secondItem="DwU-Yq-qkb" secondAttribute="trailing" id="GRE-Ee-iv3"/>
+                                        <constraint firstItem="DwU-Yq-qkb" firstAttribute="top" secondItem="6lx-r5-SCk" secondAttribute="top" id="Ra4-bq-j4U"/>
+                                        <constraint firstAttribute="trailing" secondItem="aY8-Z0-bEc" secondAttribute="trailing" id="h9h-E9-c8p"/>
+                                        <constraint firstItem="DwU-Yq-qkb" firstAttribute="leading" secondItem="6lx-r5-SCk" secondAttribute="leading" id="jPD-5d-r5D"/>
+                                        <constraint firstAttribute="bottom" secondItem="aY8-Z0-bEc" secondAttribute="bottom" constant="10" id="m0A-Tr-Lr9"/>
                                     </constraints>
                                 </collectionViewCellContentView>
+                                <size key="customSize" width="150" height="116"/>
                                 <connections>
                                     <outlet property="cover" destination="DwU-Yq-qkb" id="2iL-S9-t1G"/>
+                                    <outlet property="seasonEpisode" destination="aY8-Z0-bEc" id="fyf-lr-p11"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
