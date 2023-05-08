@@ -12,9 +12,9 @@ class EpisodeDetailViewController: UITableViewController {
 
     @IBOutlet var image: UIImageView!
     @IBOutlet var titleEpisode: UILabel!
-    @IBOutlet var airDate: UITextField!
-    @IBOutlet var season: UITextField!
-    @IBOutlet var episode: UITextField!
+    @IBOutlet var episode: UILabel!
+    @IBOutlet var season: UILabel!
+    @IBOutlet var airDate: UILabel!
     @IBOutlet var summary: UITextView!
 
     override func viewDidLoad() {
@@ -27,7 +27,13 @@ class EpisodeDetailViewController: UITableViewController {
             season.text = String(selectedEpisode.season)
             episode.text = String(selectedEpisode.number)
             summary.text = selectedEpisode.summary
+            summary.isUserInteractionEnabled = true
         }
+    }
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath)
+        cell?.selectionStyle = .none
     }
 
     override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {

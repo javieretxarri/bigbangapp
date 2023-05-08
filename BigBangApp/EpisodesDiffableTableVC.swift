@@ -57,8 +57,6 @@ class EpisodesDiffableTableVC: UITableViewController, UISearchResultsUpdating {
         headerView.addSubview(label)
         headerView.backgroundColor = .white
 
-        headerView.layer.cornerRadius = 10
-
         return headerView
     }
 
